@@ -1,0 +1,4 @@
+mkdir 2026.06.26
+cmd /c copy /b ^v2026.06.26-planes-readsb-prod-0.tar.aa+v2026.06.26-planes-readsb-prod-0.tar.ab+v2026.06.26-planes-readsb-prod-0.tar.ac ^combined.tar
+tar -tf combined.tar
+tar -xf combined.tar -C 2026.06.26
